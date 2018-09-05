@@ -1,0 +1,148 @@
+body {
+    font-family: Avenir;
+}
+
+
+a,.btn.btn-link {
+    color: white;
+}
+
+.btn.btn-link:hover {
+    color: #e6e6e6;
+    background: transparent;
+    border: 0;
+}
+
+.btn:hover {
+    color: #e6e6e6;
+    background: transparent;
+    border-color: #e6e6e6;
+}
+
+header {
+    padding: 1em 5em;
+    color: white;
+}
+
+.hero {
+    background: url('https://images.unsplash.com/photo-1472289065668-ce650ac443d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=cdff4c62302fd44491d4850202323d11&auto=format&fit=crop&w=1650&q=80');
+    height: 75vh;
+}
+
+.infoHero {
+    float: right;
+    margin: 8em 15em;
+    color: white;
+}
+
+.infoHero > h2 {
+    font-size: 3em;
+    padding: 0;
+    margin: 0;
+}
+
+.infoHero > p {
+    text-transform: uppercase;
+    padding-bottom: 1em;
+    margin: 0;
+}
+
+.infoHero > button {
+    color: white;
+    border-radius: 10px;
+    background: transparent;
+    margin-right: 0.5em;
+}
+
+button:hover {
+    color: #999;
+    background: transparent;
+    border-color: #999;
+}
+
+.btn {
+    color: white;
+    border-color: white;
+    background: #999
+}
+
+.gridSystem {
+    display: grid;
+    grid-template-areas: 
+                        'lt rm rt' 
+                        'lt rm rb'
+                        'lb lb rb';
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 2em;
+}
+
+.lt {
+    grid-area: lt;
+    background: #65B891;
+    background-size: cover;
+}
+
+.rm {
+    grid-area: rm;
+    background: #65B891;
+    background-size: cover;
+}
+
+.rt {
+    grid-area: rt;
+    background: #93E5AB;
+    background-size: cover;
+}
+
+.lb {
+    grid-area: lb;
+    background: #93E5AB;
+    background-size: cover;
+}
+
+.rb {
+    grid-area: rb;
+    background: #65B891;
+    background-size: cover;
+}
+
+.heading {
+    text-align: center;
+    margin: 5em 0;
+}
+
+.heading > h5 {
+    text-transform: uppercase;
+    font-size: 12pt;
+}
+
+.heading > h3 {
+    font-size: 25pt;
+}
+
+.section {
+    margin: 10% 15%;
+}
+
+.infoBox {
+    margin: 5em auto;
+    width: 60%;
+    text-align: center;
+}
+
+.infoBox > h6 {
+    font-size: 1em;
+    padding: 1em;
+}
+
+.infoBox > i {
+    font-size: 2em;
+}
+
+.infoBox > p {
+    text-align: justify;
+}
+
+.about {
+    margin: 15% 10%;
+}
