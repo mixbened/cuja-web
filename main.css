@@ -146,3 +146,8 @@ button:hover {
 .about {
     margin: 15% 10%;
 }
+
+.contact {
+    width: 50%;
+    margin: 0 auto;
+}
