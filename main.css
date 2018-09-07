@@ -86,30 +86,50 @@ button:hover {
     grid-area: lt;
     background: #65B891;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .rm {
     grid-area: rm;
     background: #65B891;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .rt {
     grid-area: rt;
     background: #93E5AB;
     background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .lb {
     grid-area: lb;
     background: #93E5AB;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .rb {
     grid-area: rb;
     background: #65B891;
     background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .heading {
@@ -197,4 +217,12 @@ a:visited {
  
 textarea {
     margin: 0.5em 0;
+}
+
+.title > h5 {
+    font-size: 12pt;
+}
+
+.title > h2 {
+    font-size: 2em;
 }

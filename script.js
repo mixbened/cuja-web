@@ -1,3 +1,4 @@
+// FORM PROTOCOLL 
 var formStage = 0;
 var form = document.querySelector('form');
 var mailHTML = "<input class='form-input' name='absender' type='text' placeholder='your contact'>";
@@ -27,3 +28,10 @@ nextButton.addEventListener('click', () => {
 
 // intitial input Field 
 showElement(); 
+
+// ANIMATIONS 
+const grids = $('.gridSystem > div')
+
+grids.mouseover(function(){
+    console.log('Mouse over Element')
+})
