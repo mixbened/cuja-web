@@ -170,7 +170,11 @@ button:hover {
 }
 
 .about {
-    margin: 15% 10%;
+    margin: 5% 10%;
+}
+
+.ideas {
+    margin: 15%;
 }
 
 .contact {
