@@ -30,8 +30,20 @@ nextButton.addEventListener('click', () => {
 showElement(); 
 
 // ANIMATIONS 
+// initialisation for Aos
+AOS.init();
+
+
+
 const grids = $('.gridSystem > div')
 
 grids.mouseover(function(){
-    console.log('Mouse over Element')
+    console.log(this, 'Mouse Over')
+    $(this).addClass('animated pulse')
 })
+
+grids.mouseleave(function(){
+    console.log(this, 'Mouse Down')
+    $(this).removeClass('animated pulse')
+})
+

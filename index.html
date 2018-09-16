@@ -7,13 +7,15 @@
     <link rel="stylesheet" href="dist/spectre.min.css">
     <link rel="stylesheet" href="dist/spectre-exp.min.css">
     <link rel="stylesheet" href="dist/spectre-icons.min.css">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="assets/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Silli - Code Factory Cologne</title>
 </head>
 <body>
     <section class="hero">
-        <header class="navbar">
+        <header data-aos='fade-down' class="navbar">
             <section class="navbar-section">
               <a href="..." class="navbar-brand mr-2">Silli - Code Factory Cologne</a>
             </section>
@@ -37,7 +39,7 @@
                 <h5>What we do</h5>
             </div>
             <div class="gridSystem">
-                <div class="lt">
+                <div class="lt scale">
                     <div class="title">
                         <h2>Digital Education</h2>
                         <h5>Regular Courses for your Employees</h5>
@@ -50,7 +52,7 @@
                     </div>
                 </div>
                 <div class="rt">
-                    <div class="title">
+                    <div class="title wow slideInLeft">
                         <h2>Hackathons</h2>
                         <h5>Corporate Solutions</h5>
                     </div>
@@ -75,17 +77,17 @@
                 <h5>What we believe in</h5>
             </div>
             <div class="line">
-                <div class="infoBox">
+                <div class="infoBox" data-aos='fade-up-right'>
                     <i class="fas fa-book-reader"></i>
                     <h6>Education how it was</h6>
                     <p>Business relies on talented People and where do companies find them? Right. Eduactional Institutions like Schools and Universities produce our workers. Students are starting with the will to learn about some subject to be able to work within that field. They will continue learning for a couple of years and hopefully finally graduate as human resource. No?</p>
                 </div>
-                <div class="infoBox">
+                <div style="margin: 15em auto" class="infoBox" data-aos='fade-up-left'>
                     <i class="fas fa-cogs"></i>
-                    <h6>What did transform in personal Education</h6>
+                    <h6>What changed in personal Education</h6>
                     <p>The Skillset of any Employee should not be a sure thing after the educational Period. Technology thrives every Industry and relies on a variety of Skill. Moreover on Skills that are used in modern processes. Employees attending at a school, university or a kind of apprenticeship should learn to learn and not use Tools and Techniques that werde modern 10 years ago.</p>
                 </div>
-                <div class="infoBox">
+                <div class="infoBox" data-aos='fade-up-right'>
                     <i class="fas fa-id-card-alt"></i>
                     <h6>The modern Way of Education</h6>
                     <p>With the Knowledge of that fact. A Company should never stop improving their Employees Skills. In a Hiring Process the focus should be set on the will of the person to learn new skills and not simply test the Skills the person already has. Furthermore Companies have to find a process to determine, which Skills their Employees need in the Future to accomplish the Companies goals.</p>
@@ -115,6 +117,12 @@
         </ul>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 1200
+      });
+    </script>
+    <script src="assets/script.js"></script>
 </body>
 </html>

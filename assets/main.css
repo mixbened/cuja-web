@@ -152,7 +152,7 @@ button:hover {
 
 .infoBox {
     margin: 5em auto;
-    width: 60%;
+    width: 50%;
     text-align: center;
 }
 
@@ -175,11 +175,11 @@ button:hover {
 
 .contact {
     width: 50%;
-    margin: 0 auto;
+    margin: 5em auto;
 }
 
 #content {
-    background: url('bg-stock.png');
+    background: url('./media/bg-stock.png');
     background-attachment: fixed;
     padding: 5em 0;
 }
