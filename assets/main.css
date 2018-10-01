@@ -20,9 +20,9 @@ a,.btn.btn-link {
 }
 
 header {
-    padding: 1em 5em;
+    padding: 0.5em 3em;
     color: white;
-    background: #65B891;
+    background: rgb(57, 195, 239);
 }
 
 .hero {
@@ -38,7 +38,7 @@ header {
     padding: 1em;
     text-align: center;
     color: white;
-    background: rgb(101, 184, 145,0.5)
+    background: rgb(57, 195, 239, 0.5)
 }
 
 .infoHero > h2 {
@@ -84,7 +84,7 @@ button:hover {
 
 .lt {
     grid-area: lt;
-    background: #65B891;
+    background: rgb(57, 195, 239);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -94,7 +94,7 @@ button:hover {
 
 .rm {
     grid-area: rm;
-    background: #65B891;
+    background: rgb(133, 217, 245);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -104,7 +104,7 @@ button:hover {
 
 .rt {
     grid-area: rt;
-    background: #93E5AB;
+    background: rgb(133, 217, 245);
     background-size: cover;
     align-items: center;
     display: flex;
@@ -114,7 +114,7 @@ button:hover {
 
 .lb {
     grid-area: lb;
-    background: #93E5AB;
+    background: rgb(133, 217, 245);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -124,7 +124,7 @@ button:hover {
 
 .rb {
     grid-area: rb;
-    background: #65B891;
+    background: rgb(57, 195, 239);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -185,12 +185,16 @@ button:hover {
 #content {
     background: url('./media/bg-stock.png');
     background-attachment: fixed;
-    padding: 5em 0;
+    padding: 3em 0 5em 0;
 }
 
 footer {
-    background: #65B891;
+    background: rgb(57, 195, 239);
     padding: 1em 5em;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 100%;
 }
 
 ul {
@@ -213,7 +217,7 @@ a:visited {
 }
 
 .button {
-    background-color: #65B891;
+    background-color: rgb(133, 217, 245);
     border-radius: 4px;
     color: white;
     box-shadow: 1px 1px 1px rgb(245, 245, 245);
@@ -230,3 +234,12 @@ textarea {
 .title > h2 {
     font-size: 2em;
 }
+
+#logo {
+    background: url('./media/cuja-logo200x200.png');
+    background-position: center;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+}
+
