@@ -243,3 +243,51 @@ textarea {
     height: 80px;
 }
 
+#hamburger {
+    display: none;
+    padding: 0.5em;
+    font-size: 2em;
+}
+
+#respNav  {
+    background: rgb(57, 195, 239);
+    padding: 3em;
+    list-style-type: none;
+    display: none;
+}
+
+#respNav > li {
+    padding: 0.5em;
+    border-bottom: 1px solid white
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+    .gridSystem {
+        display: grid;
+        grid-template-rows: 200px 200px 200px 200px 200px;
+        grid-template-areas: 'lt' 'rt' 'rm' 'lb' 'rb';
+    }
+
+    .infoBox {
+        width: 80%;
+    }
+
+    .infoHero {
+        margin: 4em;
+        width: 80%;
+    }
+
+    #links {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    footer {
+        padding: 1em;
+    }
+}
+
